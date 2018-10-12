@@ -41203,22 +41203,13 @@ inherited ExecuteToolMain: TExecuteToolMain
           Visible = False
           OnClick = ResetClick
         end
-        object Text: TEdit
-          Left = 707
-          Top = 219
-          Width = 146
-          Height = 21
-          TabOrder = 7
-          Visible = False
-          OnDblClick = TextDblClick
-        end
         object OpMode: TButton
           Left = 707
           Top = 319
           Width = 92
           Height = 29
           Caption = 'Operation Mode'
-          TabOrder = 8
+          TabOrder = 7
           Visible = False
         end
         object ImpExp: TButton
@@ -41227,7 +41218,7 @@ inherited ExecuteToolMain: TExecuteToolMain
           Width = 161
           Height = 29
           Caption = 'Create Import Export Balance'
-          TabOrder = 9
+          TabOrder = 8
           OnClick = ImpExpClick
         end
         object RunConnectMode: TButton
@@ -41236,7 +41227,7 @@ inherited ExecuteToolMain: TExecuteToolMain
           Width = 161
           Height = 29
           Caption = 'Run connected mode'
-          TabOrder = 10
+          TabOrder = 9
           OnClick = RunConnectModeClick
         end
         object PNameText: TEdit
@@ -41244,7 +41235,7 @@ inherited ExecuteToolMain: TExecuteToolMain
           Top = 91
           Width = 121
           Height = 21
-          TabOrder = 11
+          TabOrder = 10
           Text = 'Temp'
         end
         object SbFolder: TEdit
@@ -41252,16 +41243,12 @@ inherited ExecuteToolMain: TExecuteToolMain
           Top = 162
           Width = 121
           Height = 21
-          TabOrder = 12
+          TabOrder = 11
         end
       end
       object Screen: TTabSheet
         Caption = 'Input Files'
         ImageIndex = 1
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         DesignSize = (
           1085
           623)
@@ -43803,10 +43790,6 @@ inherited ExecuteToolMain: TExecuteToolMain
       object TransTab: TTabSheet
         Caption = 'Input Files 2'
         ImageIndex = 2
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Label23: TLabel
           Left = 134
           Top = 67
@@ -45221,10 +45204,6 @@ inherited ExecuteToolMain: TExecuteToolMain
       object SettingsTab: TTabSheet
         Caption = 'Settings'
         ImageIndex = 3
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Label37: TLabel
           Left = 136
           Top = 214
@@ -45582,7 +45561,7 @@ inherited ExecuteToolMain: TExecuteToolMain
     Left = 688
     Top = 3
     Bitmap = {
-      494C010133003800B00310001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010133003800B80310001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000040000000D0000000010020000000000000D0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

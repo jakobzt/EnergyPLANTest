@@ -13,6 +13,7 @@ uses
   Vcl.ActnColorMaps;
 type
   TExecuteToolMain = class(TEPlanUtilityBaseform)
+     Text: TEdit;
     OpenDialog1: TOpenDialog;
     Reset: TBitBtn;
     ScrollBox3: TScrollBox;

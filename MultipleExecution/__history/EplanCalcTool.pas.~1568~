@@ -1,5 +1,5 @@
 unit EplanCalcTool;
-//Test til GitHUB
+
 interface
 
 uses

@@ -1,0 +1,25 @@
+program MultipleExecutionTool;
+
+uses
+  EMemLeaks,
+  EResLeaks,
+  EDialogWinAPIMSClassic,
+  EDialogWinAPIEurekaLogDetailed,
+  EDialogWinAPIStepsToReproduce,
+  EDebugExports,
+  EDebugJCL,
+  EAppVCL,
+  ExceptionLog7,
+  Vcl.Forms,
+  EPlanUtilityBasefrm in '..\..\..\ePlanGen\EPlanUtilityBasefrm.pas' {EPlanUtilityBaseform},
+  EplanCalcTool in 'EplanCalcTool.pas' {ExecuteToolMain},
+  PreviewResultFrm in '..\..\..\ePlanReports\PreviewResultFrm.pas' {PreviewResultFrm};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TExecuteToolMain, ExecuteToolMain);
+  Application.Run;
+end.

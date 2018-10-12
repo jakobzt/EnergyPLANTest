@@ -1,0 +1,16 @@
+program MultipleExecutionTool;
+
+uses
+  Vcl.Forms,
+  EPlanUtilityBasefrm in '..\..\..\ePlanGen\EPlanUtilityBasefrm.pas' {EPlanUtilityBaseform},
+  EplanCalcTool in '..\Europe\EplanCalcTool.pas' {ExecuteToolMain},
+  PreviewResultFrm in '..\..\..\ePlanReports\PreviewResultFrm.pas' {PreviewResultFrm};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TExecuteToolMain, ExecuteToolMain);
+  Application.Run;
+end.
